@@ -1,0 +1,18 @@
+Spring Batch - It is a lightweight , comprehensive batch framework designed to enable the development of robust batch applications. Processes bulk of records is called batch processing.
+
+Ex. Load multiple data from the csv file to database.
+
+
+ItemReader - Read the data from the source.
+
+ItemWriter - Write the data to the destination.
+
+ItemProcessor - Process the data before write and after read.
+
+Step - These three components are doing work is called 1 step.
+
+Job - Job can contain multiple steps and it's task to execute the steps.
+
+JobLauncher - Launch the job or start the job.
+
+JobRepository - Execution information will be maintained in the JobRepository.
